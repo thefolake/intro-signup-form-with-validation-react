@@ -1,6 +1,6 @@
 import './App.scss';
 import Input from "./components/Input";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 const App = () => {
     const [state, setState] = useState({
