@@ -1,5 +1,6 @@
 import React from 'react';
 import './_Input.scss'
+import IconError from '../images/icon-error.svg'
 
 const Input = ({
                    className,
@@ -21,7 +22,7 @@ const Input = ({
                     onChange={onChange}
                     {...restProps}
                 />
-                {/*{errorMessage && <img src="../images/icon-error.svg" alt="error icon"/>}*/}
+                {errorMessage && <img src={IconError} alt="error icon" className='error-icon'/>}
             </div>
             <span className="error-message">{errorMessage}</span>
         </>
