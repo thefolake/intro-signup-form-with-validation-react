@@ -12,7 +12,7 @@ const Input = ({
 }) => {
     return (
         <>
-            <div className='input-container'>
+            <div className={`input-container ${errorMessage ? 'error-border' : ''}`}>
                 <input
                     className={className}
                     placeholder={placeholder}

@@ -12,12 +12,13 @@
     font-weight: 700;
     outline: none;
     width: 100%;
-
-    &::placeholder {
-      //font-weight: 700;
-    }
   }
 }
+
+.error-border {
+  border: 2px solid #ff7975;
+}
+
 .error-message {
   color: #ff7975;
   display: block;
